@@ -1,4 +1,5 @@
 import { HERO_CONTENT } from "../constants";
+import mainImage from "../assets/mainImage.png";
 
 const Hero = () => {
   return (
@@ -13,6 +14,11 @@ const Hero = () => {
         <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
             {HERO_CONTENT}
         </p>
+    </div>
+    </div>
+    <div className="w-full lg:w-1/2 lg:p-8">
+    <div className="flex justify-center">
+        <img src={mainImage} alt="AI Generated Yogya Inspiration" />
     </div>
     </div>
   </div>
