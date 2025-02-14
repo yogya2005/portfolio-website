@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Technologies from './components/Technologies.jsx'
+import Experience from './components/Experience.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
+        <Experience />
       </div>
     </div>
   );
