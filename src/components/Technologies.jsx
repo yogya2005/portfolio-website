@@ -1,6 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
+import { SiC } from "react-icons/si";
+import { SiPython } from "react-icons/si";
+
 
 const Technologies = () => {
   return (
@@ -11,10 +14,16 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandNextjs className="text-7xl text-cyan-400" />
+          <TbBrandNextjs className="text-7xl text-white-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <FaNodeJs className="text-7xl text-cyan-400" />
+          <FaNodeJs className="text-7xl text-green-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiC className="text-7xl text-red-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiPython className="text-7xl text-purple-400" />
         </div>
       </div>
     </div>
