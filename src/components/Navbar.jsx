@@ -10,9 +10,15 @@ const Navbar = () => {
         <img src={logo} alt="Website Logo" />
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
+    <a href="https://www.linkedin.com/in/yogya-agrawal/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="hover:text-blue-500 transition duration-300" />
+        </a>
+        <a href="https://github.com/yogya2005" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="hover:text-gray-500 transition duration-300" />
+        </a>
+        <a href="https://www.instagram.com/yogya.agrawal/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="hover:text-pink-500 transition duration-300" />
+        </a>
     </div>
   </nav>
   );
