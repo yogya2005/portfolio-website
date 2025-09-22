@@ -55,8 +55,8 @@ export const PROJECTS = [
       "title": "WasteWise — StormHacks 2024",
       "description": "Developed the MVP for WasteWise, an automated waste sorting app at StormHacks 2024. The app uses AI image recognition to scan your waste and recommends you the correct bin the waste should go into. ",
       "technologies": ["Research", "Technical Writing", "Analysis"]
-    }
-        {
+    },
+    {
       "title": "Website Development and Integration",
       "image": "project1",
       "description": "Helped design the front-end and back-end infrastructure for 'The Momo Grill'. Also contributed to social media management and e-commerce integrations.",
