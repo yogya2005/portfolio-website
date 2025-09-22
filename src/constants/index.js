@@ -1,26 +1,36 @@
-export const HERO_CONTENT = `Hi, I'm Yogya Agrawal — A Student Research Assistant & Developer. I'm passionate about Software and User Design.  
-From personal projects to working in research, I bring an abundance of experience and intuitive idea of user design. Let's build something amazing!`;
+export const HERO_CONTENT = `Hi, I’m Yogya (yo-gya) - A student Research Assistant studying CS and Math at SFU. 
+I’m passionate about learning new technologies and ways in which tech impacts society, and I’m interested in everything from Software, AI ethics, Quantitative Finance and AGI. 
+As a student, I’m always trying to find new ways to learn. I don’t have a definitive path yet, but I’m trying to figure it out, and I’m seeking 2026 internships in tech as a step towards that goal. 
+If you find anything about me interesting, hit me up, and I would love to chat!`;
 
-export const ABOUT_TEXT = `I am a Mathematics and Computing Science student at SFU, working as a Research Assistant on a Machine Learning project. 
-I’ve built e-commerce platforms, developed UI/UX solutions, and explored AI applications in Linguistics. I blend tech and creativity to craft meaningful digital experiences.`;
+export const ABOUT_TEXT = `I’m in my third year at SFU, studying Mathematics and Computer Science. Additionally, I work as a Research Assistant at the SFU Dept. of Linguistics, where 
+I am currently building machine learning models that help predict gender in Hindi nouns. I’m actively looking for 2026 internships, so let me know if you have any tips for me or want 
+to roast my resume!
+
+I’m from Nepal, so yes, I climbed Mount Everest everyday to go to school (kidding ofc). I’m a big Manchester United and F1 fan, and I like watching all sports in my free time. Additionally, 
+I like food a lot, like a lot a lot, and am always ready to try new food spots around the city.
+
+On a bit of a serious note, I like diving into new topics all the time, and currently doing that with quantitative finance, machine learning, app development and layers of consciousness (voodoo stuff). 
+You might be thinking that I’m all over the place and have multiple disjoint experiences, and you’re right! By exploring a lot of different fields, I hope to pave a clearer path for myself, one that I 
+enjoy walking down, and eventually I’m confident that the dots will connect!`
 
 export const EXPERIENCES = [
     {
-      "year": "2024 - Present",
-      "role": "Project Co-ordinator",
-      "company": "FinTech Creative",
-      "description": "Working on individual projects with a leading agency that provides complete solutions for companies looking to expand their digital presence. My work includes UI/UX design, e-commerce integrations, social media management, and building the front-end of the website.",
-      "technologies": ["UI/UX Design", "E-commerce", "Social Media Management", "Front-end Development"]
+      "year": "Sep 2024 - Present",
+      "role": "Machine Learning Research Assistant",
+      "company": "SFU Dept. of Linguistics",
+      "description": "The work involved Developing and validating datasets for a linguistic research project, processing 3,000+ rows across 27 dimensions. I also performed data analysis using Jupyter Notebooks to identify significant features and assess variable impact in datasets. Additionally, I engineered features and conducted 20+ rounds of 5-fold cross-validation with non-neural network models to predict gender. I Built a Python script to extract key n-grams using statistical metrics and output an augmented dataset for NLP",
+      "technologies": ["Python", "Non-neural network models", "Data analysis", "NLP", "Jupyter Notebooks"]
     },
     {
-      "year": "2024 - Present",
-      "role": "Research Assistant",
-      "company": "Department of Linguistics @ SFU",
-      "description": "Working with Prof. John Alderete on a project that uses Machine Learning methods to predict the gender of Hindi nouns. My work includes data collection, ML analysis, and refining linguistic datasets for research purposes.",
-      "technologies": ["Machine Learning", "Data Collection", "Linguistics", "Python"]
+      "year": "Feb 2025 - Mar 2025",
+      "role": "Software Developer",
+      "company": "Yika Rental Marketplace",
+      "description": "I Developed a responsive web application using React 18, TypeScript, and modern ES6+ JavaScript features. I Built 15+reusable components with TypeScript and configured Material-UI theme customization and styled-components. I Utilized Chart.js for interactive dashboard analytics, creating dynamic graphs and charts for inventory data insights. Additionally, I managed 30+ GitHub commits with structured branching and facilitated team communication via Slack for code reviews.",
+      "technologies": ["React 18", "TypeScript", "Material UI", "Chart.js", "GitHub"]
     },
     {
-      "year": "2024 - Present",
+      "year": "Jan 2024 - April 2025",
       "role": "Tutor",
       "company": "Friends of Simon",
       "description": "Working with an organization at SFU that provides after-school tutoring to K-12 children who are ELL learners or struggling with assimilation into Canadian culture. My work includes classroom set-up, conducting literacy activities, and helping kids improve their proficiency in English and Maths.",
@@ -37,6 +47,16 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
+      "title": "Cirkle — SWE Class Team Project ",
+      "description": "Developed Cirkle, an app that allows users to share files and take notes in real time, as well as gamifying the idea of studying. You initially create or join a group, and then you share files and take notes in the group. The app also features a pomodoro timer and each group you join has a leaderboard, where points are earned by how many pomodoro sessions you complete. The idea is that users use the pomodoro technique to study, and naturally whoever spends the most amount of time studying ends up topping the leaderboards.",
+      "technologies": ["React", "Next.js", "Oauth", "Drive API", "Firebase"]
+    },
+    {
+      "title": "WasteWise — StormHacks 2024",
+      "description": "Developed the MVP for WasteWise, an automated waste sorting app at StormHacks 2024. The app uses AI image recognition to scan your waste and recommends you the correct bin the waste should go into. ",
+      "technologies": ["Research", "Technical Writing", "Analysis"]
+    }
+        {
       "title": "Website Development and Integration",
       "image": "project1",
       "description": "Helped design the front-end and back-end infrastructure for 'The Momo Grill'. Also contributed to social media management and e-commerce integrations.",
