@@ -1,14 +1,14 @@
-export const HERO_CONTENT = `Hi, I’m Yogya (yo-gya) - A student Research Assistant studying CS and Math at SFU. 
-I’m passionate about learning new technologies and ways in which tech impacts society, and I’m interested in everything from Software, AI ethics, Quantitative Finance and AGI. 
+export const HERO_CONTENT = `Hi, I’m Yogya (yo-gya) - a student Research Assistant studying CS and Math at SFU. 
+I’m passionate about learning new technologies and ways in which tech impacts society. I’m interested in everything from Software, AI ethics, Quantitative Finance and AGI. 
 As a student, I’m always trying to find new ways to learn. I don’t have a definitive path yet, but I’m trying to figure it out, and I’m seeking 2026 internships in tech as a step towards that goal. 
 If you find anything about me interesting, hit me up, and I would love to chat!`;
 
 export const ABOUT_TEXT = `I’m in my third year at SFU, studying Mathematics and Computer Science. Additionally, I work as a Research Assistant at the SFU Dept. of Linguistics, where 
 I am currently building machine learning models that help predict gender in Hindi nouns. I’m actively looking for 2026 internships, so let me know if you have any tips for me or want 
-to roast my resume!
+to roast my resume! \n\n
 
 I’m from Nepal, so yes, I climbed Mount Everest everyday to go to school (kidding ofc). I’m a big Manchester United and F1 fan, and I like watching all sports in my free time. Additionally, 
-I like food a lot, like a lot a lot, and am always ready to try new food spots around the city.
+I like food a lot, like a lot a lot, and am always ready to try new food spots around the city. \n\n
 
 On a bit of a serious note, I like diving into new topics all the time, and currently doing that with quantitative finance, machine learning, app development and layers of consciousness (voodoo stuff). 
 You might be thinking that I’m all over the place and have multiple disjoint experiences, and you’re right! By exploring a lot of different fields, I hope to pave a clearer path for myself, one that I 
@@ -54,7 +54,7 @@ export const PROJECTS = [
     {
       "title": "WasteWise — StormHacks 2024",
       "description": "Developed the MVP for WasteWise, an automated waste sorting app at StormHacks 2024. The app uses AI image recognition to scan your waste and recommends you the correct bin the waste should go into. ",
-      "technologies": ["Research", "Technical Writing", "Analysis"]
+      "technologies": ["React", "OpenAI API", "Neo4j", "RAG"]
     },
     {
       "title": "Website Development and Integration",
