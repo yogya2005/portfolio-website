@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="text-center tracking-tighter">
         <p className="my-4">{CONTACT.address}</p>
         <a href="mailto:$yaa21@sfu.ca" className="border-b">{CONTACT.email}</a>
-        <p><a href="https://drive.google.com/file/d/1WcnUKvf7OE-beSvrDU5EeCnz7vOTLlLk/view?usp=sharing" className="border-b">Resume</a></p>
+        <p><a href="https://drive.google.com/file/d/157IKx1WkV0wm41DFBbvdnyBdh4sn5ck9/view?usp=sharing" className="border-b">Resume</a></p>
       </div>
     </div>
   );
